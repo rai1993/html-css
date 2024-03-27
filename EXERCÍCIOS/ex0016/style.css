@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #F2CB05 10%, #F29F05);
+}
+
+/* Permite centralizar somente oque for digitado nele */
+main{
+/*  Cor atrás do texto*/
+    background-color: rgb(205, 211, 216);
+/* Retirar bordas quadradas */
+    border-radius: 10px;
+/* Sombra da borda do texto  */
+    box-shadow: 10px 10px 10px black;
+/* Largura do texto */
+    width: 600px;
+/* Ajustar borda do texto */
+    padding: 10px;
+/* Centralizar texto e ajustar automático a largura */
+    margin: auto;
+}
+
+h1{
+    color: #F23030;
+    text-align: center;
+    /* Sombra do texto */
+    text-shadow:5px 5px 5px #000000;
+}
+
+h2 {
+    color: #267365;
+}
+
+p {
+    text-align: justify;
+}

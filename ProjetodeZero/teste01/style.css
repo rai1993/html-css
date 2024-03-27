@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+
+    font-family: 'Parágrafos';
+    src: url('fonts/gcr2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {  
+     font-family: 'Principal';
+    src: url('fonts/gpo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    text-align: center;
+   
+}
+
+nav {
+    color: black;
+    font-family: 'Parágrafos', sans-serif;
+    font-size: 3em;
+    padding: 2em;
+}
+h1 {
+    font-family: 'Principal', Arial, Helvetica, sans-serif;
+    background-color: #BA802F;
+    margin: auto;
+    font-size: 5em;
+    
+}
